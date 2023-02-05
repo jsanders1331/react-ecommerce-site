@@ -6,6 +6,8 @@ import Confirmation from "./scenes/checkout/Confirmation";
 import Navbar from "./scenes/global/Navbar";
 import Home from "./scenes/home/Home";
 
+import Item from "./components/Item";
+
 import CartMenu from "./scenes/global/CartMenu";
 
 import ItemDetails from "./scenes/itemDetails/ItemDetails";
@@ -31,6 +33,7 @@ function App() {
           <Route path="checkout" element={<Checkout />} />
           <Route path="checkout/success" element={<Confirmation />} />
         </Routes>
+
         <CartMenu />
       </BrowserRouter>
     </div>
