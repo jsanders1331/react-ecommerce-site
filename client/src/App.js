@@ -5,7 +5,7 @@ import Checkout from "./scenes/checkout/Checkout";
 import Confirmation from "./scenes/checkout/Confirmation";
 import Navbar from "./scenes/global/Navbar";
 import Home from "./scenes/home/Home";
-
+import Footer from "./scenes/global/Footer";
 import Item from "./components/Item";
 
 import CartMenu from "./scenes/global/CartMenu";
@@ -35,6 +35,7 @@ function App() {
         </Routes>
 
         <CartMenu />
+        <Footer />
       </BrowserRouter>
     </div>
   );

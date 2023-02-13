@@ -56,6 +56,7 @@ const MainCarousel = () => {
         </IconButton>
       )}
     >
+      {/* Grab all images and cycle through */}
       {Object.values(heroTextureImports).map((texture, index) => (
         <Box key={`carousel-image-${index}`}>
           <img
