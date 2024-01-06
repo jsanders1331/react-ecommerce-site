@@ -59,10 +59,10 @@ function Footer() {
             Contact Us
           </Typography>
           <Typography mb="30px">
-            50 north Whatever Blvd, Washington, DC 10501
+            Gold Coast
           </Typography>
           <Typography mb="30px" sx={{ wordWrap: "break-word" }}>
-            Email: mredwardroh@gmail.com
+            Email: james.sanders.developer@gmail.com
           </Typography>
           <Typography mb="30px">(222)333-4444</Typography>
         </Box>
